@@ -88,14 +88,23 @@ header{
 }
 
 
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.banners-section img {
+    width: 500px;
+}
+.banners-section{
+    width: calc(100% / 3);
+}
 .slider-banners{
-    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.66);
 }
 .banners{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    height: 782px;
+    width: 100%;
+    height: 100%;
 }
