@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    color: #fa2f0d;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.logo img{
+    height:150px;
+    padding-left: 30px;
+}
+
+.logo h1{
+    padding-left: 30px;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    z-index: 2;
+    transform: translateY(-23px);
+}
+
+
+
+
+
+.barra-busqueda{
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: right
+}
+
+.barra-busqueda img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.barra-busqueda input{
+    padding: 10px;
+    padding-right: 100px;
+    background-color: #474642;
+    opacity: 0.7;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+.barra-navegacion{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #d11d00;
+}
+
+.barra-navegacion nav a {
+    text-decoration: none;
+    margin: 30px;
+    font-family: Funnel Sans;
+    font-weight: 800;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+
+
+
+.slider-banners{
+    overflow: hidden;
+}
+.banners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 782px;
+}
